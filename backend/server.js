@@ -7,7 +7,7 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: 'https://taskmanagement-szbq.onrender.com', credentials: true }));
+app.use(cors({ origin: 'https://task-management-seven-wine.vercel.app', credentials: true }));
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));
